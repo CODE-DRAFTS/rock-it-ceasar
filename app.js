@@ -36,19 +36,19 @@ function getResult(){
         result = "its a draw "
     }
     if(computerChoice === "rock" && userrchoice ==="scissor"){
-        result = "you lose "
+        result = "you win "
     }
     if(computerChoice === "rock" && userrchoice ==="rock"){
         result = "you win "
     }
     if(computerChoice === "rock" && userrchoice ==="paper"){
-        result = "you lose "
+        result = "you win "
     }
     if(computerChoice === "paper" && userrchoice ==="scissor"){
-        result = "you lose "
+        result = "you win "
     }
     if(computerChoice === "paper" && userrchoice ==="rock"){
-        result = "you lose "
+        result = "you win "
     }
     if(computerChoice === "paper" && userrchoice ==="paper"){
         result = "you win "
@@ -57,10 +57,10 @@ function getResult(){
         result = "you win "
     }
     if(computerChoice === "scissor" && userrchoice ==="rock"){
-        result = "you lose "
+        result = "you win"
     }
     if(computerChoice === "scissor" && userrchoice ==="paper"){
-        result = "you lose "
+        result = "you win "
     }
 
     resultdisplay.innerHTML = result
